@@ -31,7 +31,7 @@ public class Compte{
         try{
             if(this.solde>monatnt){
                 this.solde-=monatnt;
-                System.out.println("Depot effectué avec succes");
+                System.out.println("l'opration est  effectué avec succes");
             }
             else{
                 throw new sansSoldeException();
@@ -42,6 +42,6 @@ public class Compte{
 
     }
     public String toString(){
-        return getTitulaire()+" ** "+getSoldeString();
+        return getTitulaire()+"  "+getSoldeString();
     }
 }

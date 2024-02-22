@@ -1,17 +1,17 @@
 public class Main {
     public static void main (String[] args) throws sansSoldeException{
-        Banque atb = new Banque("ATB");
-        Compte c1 = new Compte("arij",500);
-        Compte c2 = new Compte("aya",4000);
-        Compte c3 = new CompteEpargne("salah", 600, 0.05);
-        Compte c4 = new CompteEpargne("ahmed", 400, 0.05);
-        c1.retire(500);
-        c1.depose(399);
-        atb.addCompte(c1);
-        atb.addCompte(c2);
-        atb.addCompte(c3);
-        atb.addCompte(c4);
-        System.out.println(atb);
+        Banque uib = new Banque("uib");
+        Compte A1 = new Compte("lamia",500);
+        Compte A2 = new Compte("aya",750);
+        Compte A3 = new CompteEpargne("asma", 600, 0.07);
+        Compte A4 = new CompteEpargne("takwa ", 500, 0.07);
+        A1.retire(700);
+        A1.depose(450);
+        uib.addCompte(A1);
+        uib.addCompte(A2);
+        uib.addCompte(A3);
+        uib.addCompte(A4);
+        System.out.println(uib);
     }
 }
 

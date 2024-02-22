@@ -11,6 +11,6 @@ public class CompteEpargne extends Compte{
         return this.benefice;
     }
     public String  toString() {
-        return getTitulaire()+" ** "+getSoldeString()+" **"+ "Benefice : "+this.benefice;
+        return getTitulaire()+" "+getSoldeString()+" "+ "Benefice : "+this.benefice;
     }
 }
